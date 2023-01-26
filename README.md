@@ -2,8 +2,7 @@
 Java Gyakorlatok 3.
 
 I. Vezérlési szerkezetek
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 1) (kész) A program olvasson be tetszőleges egész számot parancssori argumentumból, és határozza meg azok minimumát. Szóljon, ha ehhez nincs elég (legalább 2) bemenet.
 2) (kész) A program olvasson be tetszőleges egész számot parancssori argumentumból, és határozza meg azok maximumát. Szóljon, ha ehhez nincs elég (legalább 2) bemenet.
 3) (kész) A program olvasson be tetszőleges egész számot parancssori argumentumból, és határozza meg azok összegét. Szóljon, ha ehhez nincs elég (legalább 2) bemenet.
