@@ -21,9 +21,7 @@ public class HaromszogKerulet {
             System.out.println("A bemenet nem megfelelõ!");
             System.exit(0);
         }
-        
-        
-        
+
         double[][] haromszogek = new double[darab][3];
         int index = 1;
         for (int i = 0; i < darab; i++) {
@@ -34,6 +32,7 @@ public class HaromszogKerulet {
                 index++;
             }
         }
+        
         double[] keruletek = new double[darab];
         for (int i = 0; i < darab; i++) {
             keruletek[i] = haromszogek[i][0]+haromszogek[i][1]+haromszogek[i][2];
@@ -41,7 +40,6 @@ public class HaromszogKerulet {
         }
         
         int maxHely = 0;
-        
         for (int i = 1; i < darab; i++) {
             if(keruletek[i] > keruletek[maxHely]) maxHely=i;
         }
